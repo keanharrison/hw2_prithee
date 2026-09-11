@@ -83,8 +83,8 @@ getPrompt(blankIndex) builds the text that gets printed
 -  loops from first word up to blank
 - if it is the blank word, it swaps it for an underscore (one/letter)
 - otherwise, it adds the word normally then either a new line or a space depending on endOfLine
-checkAnswer(blankIndex, guess) cleans bot the c0rrect word and the user's guess, then compares them ignoring case
-clean(word) strips out the puntucation like commas or perioss so it doesn't mess up the word count
+checkAnswer(blankIndex, guess) cleans bot the correct word and the user's guess, then compares them ignoring case
+clean(word) strips out the puntucation like commas or periods so it doesn't mess up the word count
 
 
  */
